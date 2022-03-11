@@ -1,0 +1,35 @@
+#Day 1 Printing Start
+# Write your code below this line 👇
+print("Hello world!")
+
+#Day 2 Variables Start (Input Function)
+input("What is your name?")
+
+===========================
+# FIRST PROJECT (BASIC LEVEL)
+# Write code to create a band name based on the city you grew up in and the name of your pet
+===========================
+
+#1. Create a greeting for your program.
+print("Welcome to the Band Name Generator.")
+
+#2. Ask the user for the city that they grew up in.
+city = input("What's the name of the city you grew up in?\n")
+#3. Ask the user for the name of a pet.
+pet = input("What's your pet's name?\n")
+
+#4. Combine the name of their city and pet and show them their band name.
+print("Your band name could be " + (city) + " " + (pet))
+============================
+#Day 2-1 exercise
+# Write a program that adds the digits in a 2 digit number. e.g. if the input was 35, then the output should be 3 + 5 = 8
+# See code below
+============================
+
+# 🚨 Don't change the code below 👇
+two_digit_number = input("Type a two digit number: ")
+# 🚨 Don't change the code above 👆
+
+####################################
+#Write your code below this line 👇
+print(int(two_digit_number[0])+int(two_digit_number[1]))
